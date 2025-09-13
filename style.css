@@ -1,0 +1,18 @@
+body {
+    padding: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 15px;
+    background-color: #0a0a23;
+    color: aliceblue;
+}   
+
+a:hover {
+    color: burlywood;
+}
+
+
