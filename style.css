@@ -12,7 +12,9 @@ body {
 }   
 
 a:hover {
-    color: burlywood;
+    color: #4fc3f7;
 }
 
-
+a {
+    color: #ffe066
+}
