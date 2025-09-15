@@ -1,5 +1,9 @@
 body {
     background-image: url(./imges/coffee-beans.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    background-size: cover;
     font-family: sans-serif;
     padding: 20px;
 }
