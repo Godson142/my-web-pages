@@ -13,11 +13,28 @@
   .description {
     flex-direction: column;
     align-items: center;
+    padding: 10px;
+  }
+  .description img {
+    margin: 10px 0;
+    width: 90%;
+    max-width: 300px;
   }
   a {
     font-size: 16px;
     padding: 4px;
   }
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+}
+
+.container, .description, fieldset {
+  width: 100%;
+  box-sizing: border-box;
 }
 
 body {
