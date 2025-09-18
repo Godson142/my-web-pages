@@ -1,3 +1,16 @@
+@media (max-width: 600px) {
+  body {
+    padding: 10px;
+    font-size: 14px;
+  }
+  fieldset {
+    padding: 8px;
+  }
+  ul {
+    padding-left: 0;
+  }
+}
+
 body {
     background-image: url(./images/navy.jpg);
     background-repeat: no-repeat;
