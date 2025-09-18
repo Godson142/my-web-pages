@@ -1,13 +1,22 @@
 @media (max-width: 600px) {
-  body {
-    padding: 10px;
+  .heading {
+    font-size: 28px;
+    padding: 6px;
+  }
+  .h3 {
+    font-size: 18px;
+  }
+  .motto, .welcome, .description {
     font-size: 14px;
+    padding: 10px;
   }
-  fieldset {
-    padding: 8px;
+  .description {
+    flex-direction: column;
+    align-items: center;
   }
-  ul {
-    padding-left: 0;
+  a {
+    font-size: 16px;
+    padding: 4px;
   }
 }
 
