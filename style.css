@@ -12,9 +12,24 @@ body {
 }   
 
 a:hover {
-    color: #4fc3f7;
+    color: #041f2c;
+    background-color: #a59c9c;
+    border: 2px solid black;
+    border-radius: 5px;
+    padding: 1px;
 }
 
 a {
-    color: #ffe066
+    color: #ffe066;
+    text-decoration: none;
+}
+
+ul {
+    list-style: none;
+}
+
+fieldset {
+    align-items: center;
+    border: 2px solid #041f2c;
+    border-radius: 15px;
 }
