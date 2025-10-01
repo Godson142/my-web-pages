@@ -17,8 +17,21 @@
     }
 
     .question {
-        flex-direction: column;
-        align-items: flex-start;
+        font-size: 1rem;
+        padding: 15px;
+    }
+
+    .plus {
+        width: 1.5em;
+        height: 1.5em;
+    }
+
+    .questions {
+        padding: 0 20px;
+    }
+
+    .question p {
+        font-size: 1rem;
     }
 
     .movie-grid {
@@ -277,7 +290,7 @@ button:hover {
 }
 
 .questions h2 {
-    margin-left: 150px;
+    margin-left: 50px;
     font-family: 'Times New Roman', Times, serif;
 }
 
@@ -285,10 +298,22 @@ button:hover {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    margin: 10px 150px 10px 150px;
-    padding: 20px;
+    margin: 10px 50px;
+    padding: 15px;
     font-family: Arial;
     font-size: 20px;
+}
+
+.questions {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+.question-list {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
 }
 
 .plus {
