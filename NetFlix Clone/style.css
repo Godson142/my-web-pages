@@ -1,0 +1,331 @@
+
+@media screen and (max-width: 768px) {
+    section, main {
+        padding: 0 10px;
+    }
+
+    .flex-row {
+        flex-direction: column;
+    }
+}
+    
+
+body {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.8)), url(./images/backgound.jpg);
+   background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    margin: 0;
+    color: #fff;
+    width: 100%;
+    box-sizing: border-box;
+    position: relative;
+    height: 100vh;
+}
+
+section, main {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+html, body {
+    overflow-x: hidden;
+}
+
+.main-body {
+    background-color: hsl(0, 0%, 0%);
+    width: 100%;
+    margin-left: 0;
+    margin-right: 0;
+}
+
+#sign-in {
+    background-color: rgba(255, 25, 0, 0.911);
+    color: #fff;
+    padding: 8px 20px 8px 20px;
+    border: none;
+    border-radius: 5px;
+    font-family: Arial, sans-serif;
+    font-size: 15px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.buttons {
+    display: flex;
+    justify-content: space-between;
+}
+
+.upper-section{
+    margin: 20px 100px 0 100px;
+    padding: 10px;
+}
+
+.heading1 {
+    text-align: center;
+    color: #fff;
+    font-family: Arial;
+    font-size: 4rem;
+    font-weight: bold;
+    margin-top: 100px;
+    margin-left: 50px;
+    margin-right: 50px;
+}
+
+#email {
+    background: rgba(0, 0, 0, 0.5);
+    border: 0.1px solid rgb(49, 49, 49);
+    border-radius: 5px;
+    padding: 20px;
+    width: 350px;
+    color: #fff;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.text p {
+    text-align: center;
+    font-family: Arial;
+}
+
+.text2 {
+    margin-bottom: -40px;
+    font-size: 15px;
+}
+button {
+    background-color: rgba(255, 25, 0, 0.911);
+    color: #fff;
+    padding: 15px 30px 15px 30px;
+    border-radius: 5px;
+    border: none;
+    margin-top: 20px;
+    margin-left: 10px;
+    font-size: 20px;
+    font-weight: bold;
+    cursor: pointer;
+    display: flex;
+}
+
+button:hover {
+    cursor: pointer;
+    background-color: rgba(240, 15, 15, 0.9);
+}
+
+.email-button form {
+    display: flex;
+    justify-content: center;
+    margin: 20px;
+    padding: 20px;
+}
+
+.chev-right {
+    color: #fff;
+    width: 1em;
+    height: 1em;
+    vertical-align: middle;
+    margin-left: 0.30em;
+}
+
+.main-content {
+    margin-bottom: 200px;
+}
+
+.trending-now {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+    font-size: 14px;
+    background: rgba(0, 0, 0, 0.5);
+    width: 100%;
+    margin-left: 0;
+    padding: 20px 0 0 50px;
+    
+}
+
+.movies {
+    width: 100%;
+    position: relative;
+}
+
+.movie-grid img {
+    width: 200px;
+    border-radius: 10px;
+    margin: 10px;
+    flex: 0 0 auto;
+
+}
+
+.movie-grid {
+    display: flex;
+    overflow-x: auto;
+    overflow-y: hidden;
+    white-space: nowrap;
+    scroll-behavior: smooth;
+    
+    margin: auto 50px auto 50px;
+}
+
+.straw img {
+    height: 280px;
+}
+
+ .the-waiter img {
+    height: 280px;
+}
+.devil-is-a-liar img {
+    height: 280px;
+}
+
+
+.parent-reason {
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+}
+
+.reason {
+    position: relative;
+    background: linear-gradient(-45deg,#0a0a23, #010147);
+    margin: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+    border-radius: 20px;
+    box-sizing: border-box;
+    padding: 20px;
+    text-align: center;
+    width: 250px;
+    height: 350px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+
+.h2 {
+    font-family: 'Arial Narrow Bold', sans-serif;
+    font-size: 30px;
+    text-align: center;
+
+}
+
+.reasons {
+    margin-left: 150px;
+    font-family: Arial;
+    font-size: 20px;
+}
+
+.reason-svg {
+    position: absolute;
+    bottom: 10px;
+    right: 10px;
+    color: #8b066a;
+    width: 1.5em;
+    height: 1.5em;
+    padding: 10px;
+    margin: -10px;
+    background-color: #e3e3fa;
+    border: 5px solid black;
+    border-radius: 100px;
+}
+
+.reason-svg {
+    display: flex;
+    justify-content: space-between;
+    align-items: end;
+    flex-direction: column-reverse;
+    
+}
+
+.quest-link {
+    text-decoration: none;
+    color: #f5f5f5;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.questions h2 {
+    margin-left: 150px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.question {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 10px 150px 10px 150px;
+    padding: 20px;
+    font-family: Arial;
+    font-size: 20px;
+}
+
+.plus {
+    width: 2em;
+    height: 2em;
+}
+
+.quest-link div{
+    background-color: #3b3939;
+} 
+.quest-link div:hover {
+    background: rgb(90, 85, 85);
+
+}
+
+#second-email {
+    background: rgba(0, 0, 0, 0.5);
+    border: 0.1px solid rgb(49, 49, 49);
+    border-radius: 5px;
+    padding: 20px;
+    width: 550px;
+    color: #fff;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.parent-footer-div {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.footer-link {
+    color: #bbb6b6;
+    font-family: Arial;
+}
+
+#footer-list {
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+#contact {
+    margin-left: 150px;
+}
+
+#languages {
+    background: transparent;
+    font-family: Arial, sans-serif;
+    font-size: 15px;
+    color: #868282;
+    padding: 10px;
+    margin: 20px 0 20px 150px;
+    border-radius: 8px;
+}
+
+.last-text {
+    font-family: Arial;
+    margin-left: 150px;
+    color: #686767;
+}
+
+.last-text a{ 
+    color: blue;
+    font-size: 20px;
+}
+
+.last-text a:hover {
+    color: #fff;
+}
+
+main {
+    padding-bottom: 150px;
+}
